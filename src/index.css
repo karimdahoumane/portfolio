@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobile-nav {
+    @apply block md:hidden fixed top-14 py-8 w-full h-full bg-gray-900 duration-500;
+}
+
+nav li a {
+    @apply px-6 py-5 text-lg;
+}
+
+nav li a:hover {
+    color: #1BCFF9;
+}
+
 .bg-primary {
     background: #0F172B;
     filter: saturate(4px);
@@ -12,9 +24,9 @@
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #F54476;
 }
 
 .text-accent {
-    color: #7477FF;
-} 
+    color: #1BCFF1;
+}
