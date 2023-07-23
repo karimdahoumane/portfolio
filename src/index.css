@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-primary {
+    background: #0F172B;
+    filter: saturate(4px);
+}
+
+.bg-secondery {
+    background: #1E293B;
+}
+
+.bg-accent {
+    background: #7477FF;
+}
+
+.text-accent {
+    color: #7477FF;
+} 
