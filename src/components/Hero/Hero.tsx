@@ -6,7 +6,7 @@ import {
 const Hero = () => {
   return (
     <section className="bg-primary px-5 text-white pt-12">
-      <div className="container mx-auto grid md:grid-cols-2 justify-start md:justify-between">
+      <div className="container mx-auto grid md:grid-cols-2 justify-start mt-16 md:justify-between">
         <div className="hero-info pb-5">
           <div className="text-4xl mb-5 text-left lg:text-7xl">
             {" < > "}
