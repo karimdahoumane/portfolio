@@ -11,7 +11,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #1BCFF9;
+    color: #06B6D4;
 }
 
 .bg-primary {
@@ -24,9 +24,9 @@ nav li a:hover {
 }
 
 .bg-accent {
-    background: #F54476;
+    background: #E11D48;
 }
 
 .text-accent {
-    color: #1BCFF1;
+    color: #06B6D4;
 }
