@@ -1,5 +1,8 @@
 import projects from "src/data/projects.json";
 import ProjectCard from "src/components/Projects/ProjectCard";
+import {
+  AiFillGithub as GithubIcon
+} from "react-icons/ai";
 
 const Projects = () => {
 
@@ -21,10 +24,16 @@ const Projects = () => {
             <ProjectCard project={project} />
           ))
         ) : (
-          <div className="text-2xl text-center">Coming soon ... 🚧</div>
+          <div className="text-2xl text-center">
+            Coming soon ... 🚧 <br />
+            In mean time, here is my github profile <br />
+            <a href="https://github.com/karimdahoumane" target="_blank" rel="noreferrer" className="text-cyan-500 hover:text-cyan-600">
+              <GithubIcon className="inline-block" /> Karim Dahoumane
+            </a>
+          </div>
         )}
       </div>
-    </section>
+    </section >
   );
 };
 
