@@ -23,14 +23,15 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about-img">
+        <div className="about-img text-center lgw-[80%] md:ml-auto relative">
           <img
             src={PictureGif}
             alt="Gif of a hand coding"
-            className="lgw-[80%] md:ml-auto"
             loading="lazy"
           />
-          {/* <a href="https://storyset.com/work">Work illustrations by Storyset</a> */}
+          <a href="https://storyset.com/work"
+            className="h-2 text-sm absolute bottom-0 right-0 transform rotate-90 origin-bottom-right">
+            Work illustrations by Storyset</a>
         </div>
       </div>
     </section>
