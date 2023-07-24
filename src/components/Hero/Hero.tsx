@@ -1,5 +1,7 @@
 import Picture from "src/assets/images/me.webp";
-import { AiOutlineLinkedin as LinkedinIcon } from "react-icons/ai";
+import {
+  AiOutlineLinkedin as LinkedinIcon
+} from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -19,6 +21,8 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/karimdahoumane/"
               className="pr-4 pt-20 inline-block text-accent hover:text-white"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}<LinkedinIcon size={40} />{" "}
               Linkedin
