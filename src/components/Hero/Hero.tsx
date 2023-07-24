@@ -1,17 +1,12 @@
 import Picture from "src/assets/images/me.webp";
-import {
-  AiOutlineLinkedin as LinkedinIcon,
-} from "react-icons/ai";
+import { AiOutlineLinkedin as LinkedinIcon } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-white pt-12">
-      <div className="container mx-auto grid md:grid-cols-2 justify-start mt-16 md:justify-between">
-        <div className="hero-info pb-5">
-          <div className="text-4xl mb-5 text-left lg:text-7xl">
-            {" < > "}
-          </div>
-          <div className="text-4xl text-center lg:text-6xl">
+    <section className="bg-primary px-5 min-h-screen text-white flex flex-col justify-end">
+      <div className="container mx-auto grid md:grid-cols-2 md:justify-between items-center">
+        <div className="hero-info pb-5 text-center md:text-left">
+          <div className="mb-36 text-4xl lg:text-6xl">
             Hi There! 👋🏼<br />
             <br />
             I'm <span className="text-accent">Karim</span> Dahoumane<br />
@@ -20,10 +15,7 @@ const Hero = () => {
               <span className="text-accent">Dev</span>eloper
             </div>
           </div>
-          <div className="text-4xl mb-5 text-right lg:text-7xl">
-            {" < / > "}
-          </div>
-          <div className="flex">
+          <div className="flex justify-start">
             <a
               href="https://www.linkedin.com/in/karimdahoumane/"
               className="pr-4 pt-20 inline-block text-accent hover:text-white"
@@ -33,7 +25,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="absolute mr-10 self-end flex flex-col items-center justify-end md:relative">
+        <div className="absolute mr-10 place-self-end md:ml-auto">
           <img
             src={Picture}
             alt="coding illustration"
