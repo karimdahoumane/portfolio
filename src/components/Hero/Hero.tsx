@@ -6,12 +6,12 @@ import {
 const Hero = () => {
   return (
     <section className="bg-primary px-5 min-h-screen text-white flex flex-col justify-end">
-      <div className="container mx-auto grid md:grid-cols-2 md:justify-between items-center">
-        <div className="hero-info pb-5 text-center md:text-left">
+      <div className="container mx-auto grid md:grid-cols-2 md:justify-between">
+        <div className="pb-5 text-center md:text-left">
           <div className="mb-36 text-4xl lg:text-6xl">
             Hi There! 👋🏼<br />
             <br />
-            I'm <span className="text-accent">Karim</span> Dahoumane<br />
+            I'm <span className="text-accent">Karim</span> Dahoumane <br />
             <div className="text-3xl my-5">
               <span className="text-accent">Web</span><br />
               <span className="text-accent">Dev</span>eloper
@@ -29,7 +29,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="absolute mr-10 place-self-end md:ml-auto">
+        <div className="absolute bottom-0 right-0 mr-10 md:ml-auto">
           <img
             src={Picture}
             alt="coding illustration"
