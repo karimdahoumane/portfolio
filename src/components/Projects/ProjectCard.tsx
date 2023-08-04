@@ -9,6 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <>
       <div className="flex flex-col items-center">
         <img
+          loading="lazy"
           src={require('src/assets/images/' + project.img)}
           alt={project.title}
           className="w-4/5 h-64 min rounded-md shadow-md"
