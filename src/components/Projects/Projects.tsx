@@ -18,10 +18,10 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className={`projects container mx-auto ${projects.length > 0 ? "grid md:grid-cols-2 gap-20" : "flex justify-center"}`}>
+      <div className={`projects container mx-auto ${projects.length > 1 ? "grid sm:grid-cols-2 gap-20" : "flex justify-center"}`}>
         {projects.length > 0 ? (
-          projects.map((project) => (
-            <ProjectCard project={project} />
+          projects.map((project, index) => (
+            <ProjectCard project={project} key={index} />
           ))
         ) : (
           <div className="text-2xl text-center">

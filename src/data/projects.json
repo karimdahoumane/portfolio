@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "img": "not-bmw.webp",
+    "title": "Not BMW",
+    "description": "A static eco-friendly website showcasing a collection of vehicles.",
+    "live": "https://www.not-bmw.site/",
+    "tags": [
+      "Typescript",
+      "Svelte",
+      "GreenIT"
+    ],
+    "code": "https://github.com/karimdahoumane/not-bmw"
+  },
+  {
+    "img": "no-image.avif",
+    "title": "Shifter Shop",
+    "description": "A web platform for online business.",
+    "live": null,
+    "tags": [
+      "Typescript",
+      "NestJS",
+      "Fastify",
+      "Express.js",
+      "React",
+      "PostgreSQL",
+      "TailwindCSS",
+      "Docker"
+    ],
+    "code": "https://github.com/karimdahoumane/shifter-shop"
+  },
+  {
+    "img": "no-image.avif",
+    "title": "Chitzzy Chat (Developing ... 🚧)",
+    "description": "A web platform for online business.",
+    "live": null,
+    "tags": [
+      "Typescript",
+      "Express.js",
+      "React",
+      "Socket.io",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "code": "https://github.com/karimdahoumane/chittzy-chat"
+  }
+]
