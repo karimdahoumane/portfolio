@@ -36,13 +36,13 @@ const Header = () => {
             >
                 <ul className="flex flex-col gap-4">
                     <li>
-                        <a href="/#about">ABOUT</a>
+                        <a href="/#about" onClick={handleToggle}>ABOUT</a>
                     </li>
                     <li>
-                        <a href="/#projects">PROJECTS</a>
+                        <a href="/#projects" onClick={handleToggle}>PROJECTS</a>
                     </li>
                     <li>
-                        <a href="/#contact">CONTACT</a>
+                        <a href="/#contact" onClick={handleToggle}>CONTACT</a>
                     </li>
                 </ul>
             </nav>
