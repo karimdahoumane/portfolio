@@ -11,7 +11,7 @@ Welcome to my portfolio! This repository showcases a collection of my projects a
 
 ### Live demo
 
-https://karimdahoumane.github.io/portfolio
+https://karimdahoumane.site/
 
 ### Local demo
 Clone the project
