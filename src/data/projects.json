@@ -1,5 +1,18 @@
 [
   {
+    "img": "poker-21.avif",
+    "title": "Poker 21",
+    "description": "A thrilling and immersive web-based card game that brings the elegance and excitement of the Parisian-style Blackjack to your browser.",
+    "live": "https://karimdahoumane.github.io/poker-21/",
+    "tags": [
+      "Docker",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "code": "https://github.com/karimdahoumane/poker-21"
+  },
+  {
     "img": "not-bmw.webp",
     "title": "Not BMW",
     "description": "A static eco-friendly website showcasing a collection of vehicles.",
@@ -7,6 +20,7 @@
     "tags": [
       "Typescript",
       "Svelte",
+      "TailwindCSS",
       "GreenIT"
     ],
     "code": "https://github.com/karimdahoumane/not-bmw"
@@ -31,7 +45,7 @@
   {
     "img": "no-image.avif",
     "title": "Chitzzy Chat (Developing ... 🚧)",
-    "description": "A web platform for online business.",
+    "description": "A web platform that suggests a chatty and jovial atmosphere where users can engage in lighthearted conversations.",
     "live": null,
     "tags": [
       "Typescript",
