@@ -18,12 +18,12 @@ const ProjectCard = ({ project }: { project: Project }) => {
           <div className="text-2xl mr-6 font-bold">{project.title}</div>
           <div className="flex flex-row">
             {project.live && (
-              <a href={project.live} className="pr-4 inline-block text-accent hover:text-white">
+              <a href={project.live} target="_blank" rel="noreferrer" className="pr-4 inline-block text-accent hover:text-white">
                 {" "}<PlayIcon size={30} />{" "}
                 Live
               </a>
             )}
-            <a href={project.code} className="pr-4 inline-block text-accent hover:text-white">
+            <a href={project.code} target="_blank" rel="noreferrer" className="pr-4 inline-block text-accent hover:text-white">
               {" "}<GithubIcon size={30} />{" "}
               Code
             </a>
