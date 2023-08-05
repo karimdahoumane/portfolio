@@ -12,7 +12,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           loading="lazy"
           src={require('src/assets/images/' + project.img)}
           alt={project.title}
-          className="w-4/5 h-64 min rounded-md shadow-md"
+          className="w-3/4 object-contain rounded-md"
         />
         <div className="flex flex-row justify-between py-2 w-3/4 items-center">
           <div className="text-2xl mr-6 font-bold">{project.title}</div>
