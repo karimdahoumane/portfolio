@@ -1,4 +1,6 @@
 import Picture from "src/assets/images/me.webp";
+import LightPicture from "src/assets/images/me-light.avif";
+import ProgressiveImage from "react-progressive-graceful-image";
 import {
   AiOutlineLinkedin as LinkedinIcon
 } from "react-icons/ai";
@@ -30,11 +32,16 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute bottom-0 right-0 mr-10 md:ml-auto">
-          <img
-            src={Picture}
-            alt="coding illustration"
-            className="w-[30%] ml-auto sm:w-[35%] md:w-full md:max-w-[250px] lg:w-full lg:max-w-[350px]"
-          />
+          <ProgressiveImage src={Picture} placeholder={LightPicture}>
+            {(src: string) => (
+              <img
+                src={src}
+                alt="Karim Dahoumane"
+                className="w-[30%] ml-auto sm:w-[35%] md:w-full md:max-w-[250px] lg:w-full lg:max-w-[350px]"
+                loading="lazy"
+              />
+            )}
+          </ProgressiveImage>
         </div>
       </div>
     </section>
