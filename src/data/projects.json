@@ -44,17 +44,16 @@
   },
   {
     "img": "no-image.avif",
-    "title": "Chitzzy Chat (Developing ... 🚧)",
-    "description": "A web platform that suggests a chatty and jovial atmosphere where users can engage in lighthearted conversations.",
+    "title": "TaskEase (Developing ... 🚧)",
+    "description": "A simple and secure task management system on a web platform designed to empower you in effortlessly organizing your tasks.",
     "live": null,
     "tags": [
       "Typescript",
       "Express.js",
-      "React",
-      "Socket.io",
+      "Vue.js",
       "MongoDB",
       "TailwindCSS"
     ],
-    "code": "https://github.com/karimdahoumane/chittzy-chat"
+    "code": "https://github.com/karimdahoumane/taskease"
   }
 ]
