@@ -2,7 +2,8 @@ import Picture from "src/assets/images/me.webp";
 import LightPicture from "src/assets/images/me-light.avif";
 import ProgressiveImage from "react-progressive-graceful-image";
 import {
-  AiOutlineLinkedin as LinkedinIcon
+  AiOutlineLinkedin as LinkedinIcon,
+  AiOutlineGithub as GithubIcon
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -28,6 +29,15 @@ const Hero = () => {
             >
               {" "}<LinkedinIcon size={40} />{" "}
               Linkedin
+            </a>
+            <a
+              href="https://github.com/karimdahoumane/"
+              className="pr-4 pt-20 inline-block text-accent hover:text-white"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}<GithubIcon size={40} />{" "}
+              Github
             </a>
           </div>
         </div>

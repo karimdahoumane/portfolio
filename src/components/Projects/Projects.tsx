@@ -5,7 +5,6 @@ import {
 } from "react-icons/ai";
 
 const Projects = () => {
-
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
@@ -14,7 +13,16 @@ const Projects = () => {
             Projects
           </h2>
           <p className="pb-5">
-            These are some of my best projects.
+            Here is a curated collection of my top projects <br />
+            While the entirety of my portfolio can be accessed on my {"  "}
+            <a
+              href="https://github.com/karimdahoumane/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-cyan-500 hover:text-cyan-800"
+            >
+              <GithubIcon className="inline-block" /> Github
+            </a>
           </p>
         </div>
       </div>
