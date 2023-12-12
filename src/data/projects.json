@@ -55,5 +55,18 @@
       "TailwindCSS"
     ],
     "code": "https://github.com/karimdahoumane/taskease"
+  },
+  {
+    "img": "rendering-events.avif",
+    "title": "Rendering events calendar",
+    "description": "A React component displaying events throughout a day while managing the overlap between two or more events.",
+    "live": null,
+    "tags": [
+      "Typescript",
+      "React",
+      "CSS",
+      "Jest"
+    ],
+    "code": "https://github.com/karimdahoumane/rendering-events"
   }
 ]
