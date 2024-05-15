@@ -26,7 +26,7 @@
     "code": "https://github.com/karimdahoumane/not-bmw"
   },
   {
-    "img": "no-image.avif",
+    "img": "shifter-shop.avif",
     "title": "Shifter Shop",
     "description": "A web platform for online business.",
     "live": null,
@@ -41,20 +41,6 @@
       "Docker"
     ],
     "code": "https://github.com/karimdahoumane/shifter-shop"
-  },
-  {
-    "img": "no-image.avif",
-    "title": "TaskEase (Developing ... 🚧)",
-    "description": "A simple and secure task management system on a web platform designed to empower you in effortlessly organizing your tasks.",
-    "live": null,
-    "tags": [
-      "Typescript",
-      "Express.js",
-      "Vue.js",
-      "MongoDB",
-      "TailwindCSS"
-    ],
-    "code": "https://github.com/karimdahoumane/taskease"
   },
   {
     "img": "rendering-events.avif",
